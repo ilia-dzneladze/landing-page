@@ -186,3 +186,39 @@ main .mainContainer .infoSection .infoBoxes .infoBox .subText{
     font-size: 18px;
     color:gray;
 }
+
+/* QUOTE SECTION */
+
+main .mainContainer .quoteSection{
+    height: 500px;
+    width: 100%;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .mainContainer .quoteSection .quoteSectionText{
+    height: 100%;
+    width: 50%;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+main .mainContainer .quoteSection .quoteSectionText .quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+main .mainContainer .quoteSection .quoteSectionText h5{
+    text-align: right;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 5px;
+}
