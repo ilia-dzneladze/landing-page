@@ -3,7 +3,7 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 450;
+    font-weight: 500;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
@@ -17,7 +17,6 @@ body{
 }
 
 header{
-    height:60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +29,8 @@ header a{
 }
 
 header .headerContainer{
-    width: 75%;
+    height: 80px;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,15 +38,21 @@ header .headerContainer{
 
 header .headerContainer .headerLogo{
     font-size: 24px;
-    font-weight: 700;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .headerContainer .headerLogo h2{
+    font-weight: 900;
 }
 
 header .headerContainer .headerNavigator{
     display: flex;
     align-items: center;
     flex-direction: row;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 header .headerContainer .headerNavigator .headerLink{
@@ -74,21 +80,22 @@ main .mainContainer .heroSection{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 400px;
+    height: 600px;
     background-color: #1F2937;
 }
 
 main .mainContainer .heroSection .heroSectionContent{
-    width: 75%;
+    width: 70%;
+    height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 main .mainContainer .heroSection .heroSectionContent .heroText{
-    width: 45%;
-    height: 230px;
+    width: 50%;
+    height: 50%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -96,22 +103,22 @@ main .mainContainer .heroSection .heroSectionContent .heroText{
 }
 
 main .mainContainer .heroSection .heroSectionContent .heroText h1{
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
 main .mainContainer .heroSection .heroSectionContent .heroText p{
-    font-size: 18px;
+    font-size: 24px;
     color: #E5E7EB;
 }
 
 main .mainContainer .heroSection .heroSectionContent .heroText button{
     background-color: #3882F6;
-    width: 110px;
-    height: 35px;
+    width: 130px;
+    height: 45px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 10px;
     color: #F9FAF8;
     border: none;
@@ -130,7 +137,51 @@ main .mainContainer .heroSection .heroSectionContent .heroImage{
 }
 
 main .mainContainer .heroSection .heroSectionContent .heroImage img{
-    height: 270px;
+    width: 90%;
 }
 
 /* INFO SECTION */
+
+main .mainContainer .infoSection{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .mainContainer .infoSection h1{
+    font-weight: 900;
+}
+
+main .mainContainer .infoSection .infoBoxes{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .mainContainer .infoSection .infoBoxes .infoBox{
+    width: 175px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .mainContainer .infoSection .infoBoxes .infoBox .box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid#3882F6;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+main .mainContainer .infoSection .infoBoxes .infoBox .subText{
+    text-align: center;
+    font-size: 18px;
+    color:gray;
+}
