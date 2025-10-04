@@ -147,11 +147,12 @@ main .mainContainer .infoSection{
     height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 main .mainContainer .infoSection h1{
+    font-size: 48px;
     font-weight: 900;
 }
 
