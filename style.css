@@ -112,24 +112,6 @@ main .mainContainer .heroSection .heroSectionContent .heroText p{
     font-size: 24px;
     color: #E5E7EB;
 }
-
-main .mainContainer .heroSection .heroSectionContent .heroText button{
-    background-color: #3882F6;
-    width: 130px;
-    height: 45px;
-    font-weight: 700;
-    font-size: 18px;
-    border-radius: 10px;
-    color: #F9FAF8;
-    border: none;
-}
-
-main .mainContainer .heroSection .heroSectionContent .heroText button:hover{
-    background-color: #5797fe;
-    transition: 0.3s;
-    cursor: pointer;
-}
-
 main .mainContainer .heroSection .heroSectionContent .heroImage{
     width: 50%;
     display: flex;
@@ -221,4 +203,97 @@ main .mainContainer .quoteSection .quoteSectionText h5{
     font-weight: 700;
     font-size: 32px;
     margin-top: 5px;
+}
+
+/* ACTION SECTION */
+
+main .mainContainer .actionSection{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .mainContainer .actionSection .callToAction{
+    width: 70%;
+    height: 50%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+
+main .mainContainer .actionSection .callToAction .contentContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+main .mainContainer .actionSection .callToAction .contentContainer .actionText{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+main .mainContainer .actionSection .callToAction .contentContainer .actionText h1{
+    color: #F9FAF8;
+    font-size: 28px;
+}
+
+main .mainContainer .actionSection .callToAction .contentContainer .actionText p{
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+main .mainContainer .actionSection .callToAction .contentContainer .stdBtn{
+    border: 2px solid white;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #1F2937;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* STANDARD PRESETS */
+
+.stdBtn{
+    background-color: #3882F6;
+    width: 130px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    border: none;
+}
+
+.stdBtn:hover{
+    background-color: #5797fe;
+    transition: 0.3s;
+    cursor: pointer;
 }
